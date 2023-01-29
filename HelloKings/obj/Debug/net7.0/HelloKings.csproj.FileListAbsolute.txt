@@ -1,0 +1,15 @@
+/Users/crowdforce/Projects/HelloKings/HelloKings/bin/Debug/net7.0/HelloKings
+/Users/crowdforce/Projects/HelloKings/HelloKings/bin/Debug/net7.0/HelloKings.deps.json
+/Users/crowdforce/Projects/HelloKings/HelloKings/bin/Debug/net7.0/HelloKings.runtimeconfig.json
+/Users/crowdforce/Projects/HelloKings/HelloKings/bin/Debug/net7.0/HelloKings.dll
+/Users/crowdforce/Projects/HelloKings/HelloKings/bin/Debug/net7.0/HelloKings.pdb
+/Users/crowdforce/Projects/HelloKings/HelloKings/obj/Debug/net7.0/HelloKings.csproj.AssemblyReference.cache
+/Users/crowdforce/Projects/HelloKings/HelloKings/obj/Debug/net7.0/HelloKings.GeneratedMSBuildEditorConfig.editorconfig
+/Users/crowdforce/Projects/HelloKings/HelloKings/obj/Debug/net7.0/HelloKings.AssemblyInfoInputs.cache
+/Users/crowdforce/Projects/HelloKings/HelloKings/obj/Debug/net7.0/HelloKings.AssemblyInfo.cs
+/Users/crowdforce/Projects/HelloKings/HelloKings/obj/Debug/net7.0/HelloKings.csproj.CoreCompileInputs.cache
+/Users/crowdforce/Projects/HelloKings/HelloKings/obj/Debug/net7.0/HelloKings.dll
+/Users/crowdforce/Projects/HelloKings/HelloKings/obj/Debug/net7.0/refint/HelloKings.dll
+/Users/crowdforce/Projects/HelloKings/HelloKings/obj/Debug/net7.0/HelloKings.pdb
+/Users/crowdforce/Projects/HelloKings/HelloKings/obj/Debug/net7.0/HelloKings.genruntimeconfig.cache
+/Users/crowdforce/Projects/HelloKings/HelloKings/obj/Debug/net7.0/ref/HelloKings.dll
