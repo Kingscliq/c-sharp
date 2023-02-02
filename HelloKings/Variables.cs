@@ -12,6 +12,11 @@ namespace HelloKings;
 		Console.WriteLine(number);
 
 		Console.WriteLine("Is " + firstName + " Playing " + "The asnwer is " + isPlaying);
-	}  
+
+        string character = "2";
+
+        int convertedInt = Convert.ToInt32(character);
+        Console.WriteLine(convertedInt);
+    }  
 	
 	}
