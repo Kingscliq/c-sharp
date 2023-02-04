@@ -9,10 +9,10 @@
 
   <ItemGroup>
     <None Remove="Operations\" />
-    <None Remove="TypeConversion\" />
+    <None Remove="Maths\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Operations\" />
-    <Folder Include="TypeConversion\" />
+    <Folder Include="Maths\" />
   </ItemGroup>
 </Project>
