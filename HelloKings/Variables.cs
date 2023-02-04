@@ -19,20 +19,30 @@ namespace HelloKings;
 		//Console.WriteLine(convertedInt);
 
 
-		try
-		{
-			string series = "123344";
-			byte b = Convert.ToByte(series);
-			Console.WriteLine(b);
+		//try
+		//{
+		//	string series = "123344";
+		//	byte b = Convert.ToByte(series);
+		//	Console.WriteLine(b);
 
-		}
-		catch (Exception)
-		{
-			Console.WriteLine("The string type cannot be converted to an integer");
+		//}
+		//catch (Exception)
+		//{
+		//	Console.WriteLine("The string type cannot be converted to an integer");
 
-		}
-		
+		//}
 
-	}  
-	
+
+		//Operators
+
+		int a = 34;
+		int b = 12;
+
+		int sum = a + b;
+
+		Console.WriteLine("Sum is " + sum);
+
+
 	}
+
+}
