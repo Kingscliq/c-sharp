@@ -1,27 +1,10 @@
 ﻿using System;
 namespace HelloKings;
 
-
-public class Person
-{
-
-	public string firstName;
-	public string lastName;
-
-	public void Introduce()
-	{
-		Console.WriteLine("My FullName is " + firstName + " " + lastName) ;
-	}
-}
-class Variables
+class Entry
 	{
     static void Main(string[] args)
 	{
-
-		////////////   CLASSESS   ///////////////
-		///
-
-
 		var operators = new Operations.Operators();
 		var typeConvert = new TypeConversions.TypeConversion();
 
@@ -29,7 +12,7 @@ class Variables
 		operators.Opera();
 		typeConvert.TypeConvert();
 
-		var person = new Person();
+		var person = new People.Person();
 
 		person.firstName = "Kingsley";
 		person.lastName = "Ajaezo";
