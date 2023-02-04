@@ -1,6 +1,6 @@
 ﻿using System;
-
 namespace HelloKings;
+
 
 public class Person
 {
@@ -73,6 +73,15 @@ class Variables
 
 
 		////////////   CLASSESS   ///////////////
+		///
+
+
+		var operators = new Operations.Operators();
+		var typeConvert = new TypeConversions.TypeConversion();
+
+
+		operators.Opera();
+		typeConvert.TypeConvert();
 
 		var person = new Person();
 
@@ -83,11 +92,6 @@ class Variables
 		{
 			person.Introduce();
 		}
-		
-
-
-
-
 
 	}
 

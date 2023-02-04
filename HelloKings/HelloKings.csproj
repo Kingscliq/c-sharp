@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Operations\" />
+    <None Remove="TypeConversion\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Operations\" />
+    <Folder Include="TypeConversion\" />
+  </ItemGroup>
 </Project>
