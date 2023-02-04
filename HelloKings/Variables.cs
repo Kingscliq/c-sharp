@@ -2,7 +2,18 @@
 
 namespace HelloKings;
 
-	class Variables
+public class Person
+{
+
+	public string firstName;
+	public string lastName;
+
+	public void Introduce()
+	{
+		Console.WriteLine("My FullName is " + firstName + " " + lastName) ;
+	}
+}
+class Variables
 	{
     static void Main(string[] args)
 	{
@@ -35,28 +46,47 @@ namespace HelloKings;
 
 		//Operators
 
-		int a = 34;
-		int b = 12;
+		//int a = 34;
+		//int b = 12;
 
-		int sum = a + b;
+		//int sum = a + b;
 
-		Console.WriteLine("Sum is " + sum);
+		//Console.WriteLine("Sum is " + sum);
 
-		if(sum == 25)
+		//if(sum == 25)
+		//{
+		//	Console.WriteLine("This is your Silver Jubilee");
+		//}
+		//else if(sum < 25)
+		//{
+		//	Console.WriteLine("You are not yet in your silver jubilee");
+		//}else if(sum > 25 && sum == 50)
+		//{
+		//	Console.WriteLine("This is your Golden Jubilee");
+		//}
+		//else
+		//{
+		//	Console.WriteLine("None of our values is Matched");
+		//}
+
+
+
+
+		////////////   CLASSESS   ///////////////
+
+		var person = new Person();
+
+		person.firstName = "Kingsley";
+		person.lastName = "Ajaezo";
+
+		if(person.firstName == "Kingsley")
 		{
-			Console.WriteLine("This is your Silver Jubilee");
+			person.Introduce();
 		}
-		else if(sum < 25)
-		{
-			Console.WriteLine("You are not yet in your silver jubilee");
-		}else if(sum > 25 && sum == 50)
-		{
-			Console.WriteLine("This is your Golden Jubilee");
-		}
-		else
-		{
-			Console.WriteLine("None of our values is Matched");
-		}
+		
+
+
+
 
 
 	}
