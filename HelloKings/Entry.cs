@@ -7,10 +7,16 @@ class Entry
 	{
 		var operators = new Operations.Operators();
 		var typeConvert = new TypeConversions.TypeConversion();
+		var calculator = new Maths.Calculator();
 
+		Console.WriteLine("Sum for this expression is " + calculator.Add(5, 8));
+        Console.WriteLine("Answer for this expression is " + calculator.Divide(5, 8));
+        Console.WriteLine("Answer for this expression is " + calculator.Minus(5, 8));
+        Console.WriteLine("Answer for this expression is " + calculator.Multiply(5, 8));
 
-		operators.Opera();
+        operators.Opera();
 		typeConvert.TypeConvert();
+
 
 		var person = new People.Person();
 
@@ -21,6 +27,8 @@ class Entry
 		{
 			person.Introduce();
 		}
+
+
 
 	}
 
