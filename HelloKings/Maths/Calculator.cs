@@ -3,16 +3,16 @@ namespace HelloKings.Maths
 {
     public class Calculator
     {
-        public int Add(int a, int b)
+        public static int Add(int a, int b)
         {
             return a + b;
         }
 
-        public int Multiply(int a, int b)
+        public static int Multiply(int a, int b)
         {
             return a * b;
         }
-        public float Divide(int a, int b)
+        public static float Divide(int a, int b)
         {
             if (a > b)
             {
@@ -24,7 +24,7 @@ namespace HelloKings.Maths
             }
 
         }
-        public int Minus(int a, int b)
+        public static int Minus(int a, int b)
         {
             return a - b;
         }
