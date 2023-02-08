@@ -3,7 +3,7 @@ namespace HelloKings.Arrays
 {
 	public class Array
 	{
-		public Array()
+		public void ArrayOut()
 		{
 			int[] numbers = new int[5];
 
@@ -13,6 +13,8 @@ namespace HelloKings.Arrays
             numbers[3] = 8;
             numbers[4] = 3;
 
+
+			Console.WriteLine("{0} {1}", numbers[2], numbers[4]);
         }
 	}
 }

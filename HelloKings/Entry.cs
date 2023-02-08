@@ -19,6 +19,7 @@ class Entry
 		typeConvert.TypeConvert();
 
 		var person = new People.Person();
+		var arr = new Arrays.Array();
 
 		person.firstName = "Kingsley";
 		person.lastName = "Ajaezo";
@@ -26,6 +27,8 @@ class Entry
 		if(person.firstName == "Kingsley")
 		{
 			person.Introduce();
+			arr.ArrayOut();
+
 		}
 
 
