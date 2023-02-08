@@ -9,17 +9,14 @@ class Entry
 	{
 		var operators = new Operations.Operators();
 		var typeConvert = new TypeConversions.TypeConversion();
-		
-		Console.WriteLine("Sum for this expression is " + Calculator.Add(5, 8));
-        Console.WriteLine("Answer for this expression is " + Calculator.Divide(5, 8));
-        Console.WriteLine("Answer for this expression is " + Calculator.Minus(5, 8));
-        Console.WriteLine("Answer for this expression is " + Calculator.Multiply(5, 8));
 
         operators.Opera();
 		typeConvert.TypeConvert();
 
 		var person = new People.Person();
 		var arr = new Arrays.Array();
+		var str = new ManString.ManStrings();
+
 
 		person.firstName = "Kingsley";
 		person.lastName = "Ajaezo";
@@ -28,7 +25,7 @@ class Entry
 		{
 			person.Introduce();
 			arr.ArrayOut();
-
+			str.ManString();
 		}
 
 

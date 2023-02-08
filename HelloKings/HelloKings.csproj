@@ -12,11 +12,13 @@
     <None Remove="Maths\" />
     <None Remove="People\" />
     <None Remove="Arrays\" />
+    <None Remove="ManString\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Operations\" />
     <Folder Include="Maths\" />
     <Folder Include="People\" />
     <Folder Include="Arrays\" />
+    <Folder Include="ManString\" />
   </ItemGroup>
 </Project>
