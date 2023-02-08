@@ -1,6 +1,12 @@
 ﻿using System;
 namespace HelloKings.CTypes
 {
+
+	public class Person
+	{
+		public int Age;
+	}
+
 	public class Ctypes
 	{
 		public void Ctype()
@@ -18,10 +24,20 @@ namespace HelloKings.CTypes
 
 		array2[0] = 10;
 
-		Console.WriteLine(string.Format("first element of array2 is {0}", array1[0]));
-				
+		Console.WriteLine(string.Format("first element of array1 is {0} and array2 is {1}", array1[0], array2[0]));
+			var person = new Person() { Age = 60 };
 
+
+			MakeOld(person);
+
+			Console.WriteLine("My age is {0}", person.Age);
 		}
+
+		public static void MakeOld(Person person)
+		{
+			person.Age += 23;
+		}
+
 	}
 }
 

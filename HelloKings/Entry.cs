@@ -18,7 +18,7 @@ class Entry
 		var str = new ManString.ManStrings();
 		var enu = new CSEnums.CsEnums();
 		var types = new CTypes.Ctypes();
-
+		var somebody = new CTypes.Ctypes();
 
 		person.firstName = "Kingsley";
 		person.lastName = "Ajaezo";
@@ -30,9 +30,8 @@ class Entry
 			str.ManString();
 			enu.EvaluateEnums();
 			types.Ctype();
+			somebody.Ctype();
 		}
-
-
 
 	}
 
