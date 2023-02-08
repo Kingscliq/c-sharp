@@ -13,6 +13,8 @@
     <None Remove="People\" />
     <None Remove="Arrays\" />
     <None Remove="ManString\" />
+    <None Remove="CSEnums\" />
+    <None Remove="CTypes\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Operations\" />
@@ -20,5 +22,7 @@
     <Folder Include="People\" />
     <Folder Include="Arrays\" />
     <Folder Include="ManString\" />
+    <Folder Include="CSEnums\" />
+    <Folder Include="CTypes\" />
   </ItemGroup>
 </Project>

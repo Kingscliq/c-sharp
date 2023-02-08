@@ -16,6 +16,8 @@ class Entry
 		var person = new People.Person();
 		var arr = new Arrays.Array();
 		var str = new ManString.ManStrings();
+		var enu = new CSEnums.CsEnums();
+		var types = new CTypes.Ctypes();
 
 
 		person.firstName = "Kingsley";
@@ -26,6 +28,8 @@ class Entry
 			person.Introduce();
 			arr.ArrayOut();
 			str.ManString();
+			enu.EvaluateEnums();
+			types.Ctype();
 		}
 
 
