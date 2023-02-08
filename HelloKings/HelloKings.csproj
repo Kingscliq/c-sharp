@@ -11,10 +11,12 @@
     <None Remove="Operations\" />
     <None Remove="Maths\" />
     <None Remove="People\" />
+    <None Remove="Arrays\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Operations\" />
     <Folder Include="Maths\" />
     <Folder Include="People\" />
+    <Folder Include="Arrays\" />
   </ItemGroup>
 </Project>

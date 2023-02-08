@@ -18,7 +18,6 @@ class Entry
         operators.Opera();
 		typeConvert.TypeConvert();
 
-
 		var person = new People.Person();
 
 		person.firstName = "Kingsley";
