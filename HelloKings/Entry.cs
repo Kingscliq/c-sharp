@@ -28,7 +28,7 @@ class Entry
         //person.lastName = "Ajaezo";
 
         //if(person.firstName == "Kingsley")
-        //{
+
         //	person.Introduce();
         //	arr.ArrayOut();
         //	str.ManString();
@@ -37,12 +37,12 @@ class Entry
         //	somebody.Ctype();
         //	control.ConditionalStatements();
         //	switchs.Switchs(ControlFlows.Conditionals.Season.Summer);
-        //      }
+        //
+        //}
 
-// Answer to First Exercise
+        // Answer to First Exercise
         First.CheckValidNumber(3);
         Console.WriteLine("The Maximum number is: {0}", Second.checkMax(7, 2));
-
         Console.WriteLine("This is a {0} ", Third.checkOrientation(800, 400));
 
     }
