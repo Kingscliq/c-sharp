@@ -11,17 +11,18 @@ namespace HelloKings.Exercise
 
 			Console.WriteLine("Enter the Speed Limit - ");
 
-			speedLimit = Console.Read();
+			speedLimit =  Convert.ToInt32(Console.ReadLine());
 
 			Console.WriteLine("Enter Car Speed");
 
-            carSpeed = Console.Read();
+			carSpeed = Convert.ToInt32(Console.ReadLine());
 
-			Console.WriteLine("Car speed is: {0} and speed Limit is {1} ", carSpeed, speedLimit);
+
+            Console.WriteLine("Car speed is: {0} and speed Limit is {1} ", carSpeed, speedLimit);
 
 			var demerit = speedLimit / 5;
 
-            if (carSpeed < speedLimit)
+            if ((int)carSpeed < (int)speedLimit)
             {
                 Console.WriteLine("OK superb Man!");
 				return;
