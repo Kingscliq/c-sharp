@@ -3,7 +3,6 @@ using HelloKings.Maths;
 using HelloKings.Exercise;
 namespace HelloKings;
 
-
 class Entry
 	{
     static void Main(string[] args)
@@ -43,6 +42,8 @@ class Entry
 // Answer to First Exercise
         First.CheckValidNumber(3);
         Console.WriteLine("The Maximum number is: {0}", Second.checkMax(7, 2));
+
+        Console.WriteLine("This is a {0} ", Third.checkOrientation(800, 400));
 
     }
 
