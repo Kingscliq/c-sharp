@@ -1,26 +1,24 @@
 ﻿<Properties StartupConfiguration="{B23FD74E-6319-40B4-881E-AA980D4E6646}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="HelloKings/Entry.cs">
     <Files>
-      <File FileName="HelloKings/Maths/Calculator.cs" Line="19" Column="30" />
+      <File FileName="HelloKings/Maths/Calculator.cs" />
       <File FileName="HelloKings/Entry.cs" Line="26" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HelloKings" expanded="True">
-            <Node name="HelloKings" expanded="True">
-              <Node name="Maths" expanded="True" />
-            </Node>
+            <Node name="HelloKings" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.HelloKings PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
