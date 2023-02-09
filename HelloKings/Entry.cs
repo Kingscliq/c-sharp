@@ -20,6 +20,8 @@ class Entry
 		var types = new CTypes.Ctypes();
 		var somebody = new CTypes.Ctypes();
 		var control = new ControlFlows.Conditionals();
+		var switchs = new ControlFlows.Conditionals();
+
 		person.firstName = "Kingsley";
 		person.lastName = "Ajaezo";
 
@@ -32,7 +34,8 @@ class Entry
 			types.Ctype();
 			somebody.Ctype();
 			control.ConditionalStatements();
-		}
+			switchs.Switchs(ControlFlows.Conditionals.Season.Summer);
+        }
 
 	}
 
