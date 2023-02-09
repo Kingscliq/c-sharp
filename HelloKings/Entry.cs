@@ -41,9 +41,11 @@ class Entry
         //}
 
         // Answer to First Exercise
-        First.CheckValidNumber(3);
-        Console.WriteLine("The Maximum number is: {0}", Second.checkMax(7, 2));
-        Console.WriteLine("This is a {0} ", Third.checkOrientation(800, 400));
+        //First.CheckValidNumber(3);
+        //Console.WriteLine("The Maximum number is: {0}", Second.checkMax(7, 2));
+        //Console.WriteLine("This is a {0} ", Third.checkOrientation(800, 400));
+
+        Fourth.CalculateSpeed();
 
     }
 
