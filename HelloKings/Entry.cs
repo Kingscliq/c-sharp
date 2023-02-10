@@ -54,10 +54,10 @@ class Entry
         //Iteration.EvenAsce(30);
         //Iteration.EvenDesc(4);
 
-        var userInput = Console.ReadLine();
+        //var userInput = Console.ReadLine();
 
-        Iteration.DisplayCharacterStrings(userInput);
-
+        //Iteration.DisplayCharacterStrings(userInput);
+        Iteration.DisplayNames();
 
     }
 

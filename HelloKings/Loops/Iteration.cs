@@ -32,6 +32,19 @@ namespace HelloKings.Loops
 				Console.WriteLine(character);
 			}
 		}
-	}
+
+
+        public static void DisplayNames()
+        {
+
+			var names = new String[] { "john", "Emeka", "SomtoChukwu" };
+
+            foreach (var character in names)
+            {
+                Console.WriteLine(character);
+            }
+        }
+
+    }
 }
 
