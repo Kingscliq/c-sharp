@@ -57,8 +57,8 @@ class Entry
         //var userInput = Console.ReadLine();
 
         //Iteration.DisplayCharacterStrings(userInput);
-        Iteration.DisplayNames();
-
+        //Iteration.DisplayNames();
+        Iteration.EchoNames();
     }
 
 }

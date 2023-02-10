@@ -5,16 +5,32 @@ namespace HelloKings.Loops
 	{
 		public static void EvenAsce(int val)
 		{
-			for(var i = 0; i < val; i++)
+			//for(var i = 0; i < val; i++)
+			//{
+			//	if(i % 2 == 0)
+			//	{
+			//		Console.WriteLine(i);
+			//	}
+			//}
+			int i = 0;
+			while(i <= val)
 			{
-				if(i % 2 == 0)
-				{
-					Console.WriteLine(i);
-				}
-			}
-		}
 
-		public static void EvenDesc(int val)
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine(i);
+                  
+                }
+
+                i++;
+              
+            }
+
+
+
+        }
+
+        public static void EvenDesc(int val)
 		{
 			for(var i = 10; i >= val; i--)
 			{
@@ -42,6 +58,31 @@ namespace HelloKings.Loops
             foreach (var character in names)
             {
                 Console.WriteLine(character);
+            }
+        }
+
+        public static void EchoNames()
+        {
+
+			while (true)
+			{
+				Console.Write("Type your name - ");
+
+				var userInput = Console.ReadLine();
+
+				if (!String.IsNullOrWhiteSpace(userInput))
+				{
+					Console.WriteLine("Your name is {0}", userInput);
+					continue;
+				}
+				else
+				{
+					Console.WriteLine("No Name Entered");
+				}
+                break;
+
+
+
             }
         }
 
