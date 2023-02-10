@@ -24,6 +24,14 @@ namespace HelloKings.Loops
                 }
 			}
 		}
+
+		public static void DisplayCharacterStrings(string UserInput)
+		{
+			foreach(var character in UserInput)
+			{
+				Console.WriteLine(character);
+			}
+		}
 	}
 }
 

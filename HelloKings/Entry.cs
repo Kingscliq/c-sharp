@@ -51,8 +51,12 @@ class Entry
         //Console.WriteLine("This is a {0} ", Third.checkOrientation(800, 400));
 
         //Fourth.CalculateSpeed();
-        Iteration.EvenAsce(30);
-        Iteration.EvenDesc(4);
+        //Iteration.EvenAsce(30);
+        //Iteration.EvenDesc(4);
+
+        var userInput = Console.ReadLine();
+
+        Iteration.DisplayCharacterStrings(userInput);
 
 
     }
