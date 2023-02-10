@@ -17,19 +17,18 @@ namespace HelloKings.Exercise
 
 			carSpeed = Convert.ToInt64(Console.ReadLine());
 
-
             Console.WriteLine("Car xspeed is: {0} and speed Limit is {1} ", carSpeed, speedLimit);
 
 			var demerit = speedLimit / 5;
 
-            if (carSpeed > speedLimit && demerit >= 12)
+            if (carSpeed > speedLimit && demerit > 12)
             {
-                Console.WriteLine("License Suspended");
+                Console.WriteLine("License Suspended!");
             }
 			else
 			{
 				Console.WriteLine("OK superb Man!");
-				return;
+                return;
 			}
 
             

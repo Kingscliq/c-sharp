@@ -42,7 +42,11 @@ class Entry
 
         // Answer to First Exercise
         //First.CheckValidNumber(3);
+
+        // Answer to Second Exercise
         //Console.WriteLine("The Maximum number is: {0}", Second.checkMax(7, 2));
+
+        // Answer to Third Exercise
         //Console.WriteLine("This is a {0} ", Third.checkOrientation(800, 400));
 
         Fourth.CalculateSpeed();

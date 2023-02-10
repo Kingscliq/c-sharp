@@ -17,6 +17,7 @@
     <None Remove="CTypes\" />
     <None Remove="ControlFlows\" />
     <None Remove="Exercise\" />
+    <None Remove="Loops\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Operations\" />
@@ -28,5 +29,6 @@
     <Folder Include="CTypes\" />
     <Folder Include="ControlFlows\" />
     <Folder Include="Exercise\" />
+    <Folder Include="Loops\" />
   </ItemGroup>
 </Project>
