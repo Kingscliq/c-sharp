@@ -1,6 +1,7 @@
 ﻿using System;
 using HelloKings.Maths;
 using HelloKings.Exercise;
+using HelloKings.Loops;
 namespace HelloKings;
 
 class Entry
@@ -49,7 +50,10 @@ class Entry
         // Answer to Third Exercise
         //Console.WriteLine("This is a {0} ", Third.checkOrientation(800, 400));
 
-        Fourth.CalculateSpeed();
+        //Fourth.CalculateSpeed();
+        Iteration.EvenAsce(30);
+        Iteration.EvenDesc(4);
+
 
     }
 
