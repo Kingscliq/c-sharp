@@ -5,16 +5,29 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloKings/Entry.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloKings/Exercise/Fourth.cs">
     <Files>
-      <File FileName="HelloKings/Maths/Calculator.cs" />
-      <File FileName="HelloKings/Entry.cs" Line="26" Column="3" />
+      <File FileName="HelloKings/Maths/Calculator.cs" Line="1" Column="1" />
+      <File FileName="HelloKings/Entry.cs" Line="45" Column="31" />
+      <File FileName="HelloKings/ControlFlows/Conditionals.cs" Line="44" Column="27" />
+      <File FileName="HelloKings/Exercise/First.cs" Line="16" Column="4" />
+      <File FileName="HelloKings/Exercise/Second.cs" Line="13" Column="5" />
+      <File FileName="HelloKings/Exercise/Third.cs" Line="15" Column="5" />
+      <File FileName="HelloKings/Exercise/Fourth.cs" Line="13" Column="1" />
+      <File FileName="HelloKings/Operations/Operators.cs" Line="1" Column="1" />
+      <File FileName="HelloKings/TypeConversions/TypeConversion.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HelloKings" expanded="True">
-            <Node name="HelloKings" expanded="True" selected="True" />
+            <Node name="HelloKings" expanded="True">
+              <Node name="Exercise" expanded="True" />
+              <Node name="Maths" expanded="True" />
+              <Node name="Operations" expanded="True" />
+              <Node name="People" expanded="True" />
+              <Node name="TypeConversions" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

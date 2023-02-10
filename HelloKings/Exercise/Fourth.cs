@@ -6,32 +6,33 @@ namespace HelloKings.Exercise
 		public static void CalculateSpeed()
 		{
 
-			int speedLimit;
-			int carSpeed;
+			Int64 speedLimit;
+            Int64 carSpeed;
 
-			Console.WriteLine("Enter the Speed Limit - ");
+			Console.Write("Enter the Speed Limit - ");
 
-			speedLimit =  Convert.ToInt32(Console.ReadLine());
+			speedLimit =  Convert.ToInt64(Console.ReadLine());
 
-			Console.WriteLine("Enter Car Speed");
+			Console.Write("Enter Car Speed - ");
 
-			carSpeed = Convert.ToInt32(Console.ReadLine());
+			carSpeed = Convert.ToInt64(Console.ReadLine());
 
 
-            Console.WriteLine("Car speed is: {0} and speed Limit is {1} ", carSpeed, speedLimit);
+            Console.WriteLine("Car xspeed is: {0} and speed Limit is {1} ", carSpeed, speedLimit);
 
 			var demerit = speedLimit / 5;
 
-            if ((int)carSpeed < (int)speedLimit)
+            if (carSpeed > speedLimit && demerit >= 12)
             {
-                Console.WriteLine("OK superb Man!");
-				return;
+                Console.WriteLine("License Suspended");
             }
-
-            if (demerit >= 12)
+			else
 			{
-				Console.WriteLine("License Suspended");
+				Console.WriteLine("OK superb Man!");
+				return;
 			}
+
+            
 		}
 	}
 }
