@@ -1,18 +1,9 @@
 ﻿<Properties StartupConfiguration="{B23FD74E-6319-40B4-881E-AA980D4E6646}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloKings/Loops/Iteration.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloKings/RandomGenerators/Generators.cs">
     <Files>
-      <File FileName="HelloKings/Maths/Calculator.cs" />
-      <File FileName="HelloKings/Entry.cs" Line="54" Column="24" />
-      <File FileName="HelloKings/ControlFlows/Conditionals.cs" />
-      <File FileName="HelloKings/Exercise/First.cs" />
-      <File FileName="HelloKings/Exercise/Second.cs" />
-      <File FileName="HelloKings/Exercise/Third.cs" Line="15" Column="5" />
-      <File FileName="HelloKings/Exercise/Fourth.cs" Line="37" Column="2" />
-      <File FileName="HelloKings/Operations/Operators.cs" />
-      <File FileName="HelloKings/TypeConversions/TypeConversion.cs" />
-      <File FileName="HelloKings/People/People.cs" Line="16" Column="1" />
-      <File FileName="HelloKings/Loops/For.cs" Line="27" Column="1" />
-      <File FileName="HelloKings/Loops/ForEach.cs" Line="6" Column="3" />
+      <File FileName="HelloKings/Entry.cs" Line="63" Column="26" />
+      <File FileName="HelloKings/Loops/Iteration.cs" Line="1" Column="1" />
+      <File FileName="HelloKings/Random/Generators.cs" Line="20" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,6 +11,7 @@
           <Node name="HelloKings" expanded="True">
             <Node name="HelloKings" expanded="True">
               <Node name="Loops" expanded="True" />
+              <Node name="Random" expanded="True" />
               <Node name="Entry.cs" selected="True" />
             </Node>
           </Node>
@@ -27,11 +19,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.HelloKings PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

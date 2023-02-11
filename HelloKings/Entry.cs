@@ -2,6 +2,7 @@
 using HelloKings.Maths;
 using HelloKings.Exercise;
 using HelloKings.Loops;
+using HelloKings.RandomGenerators;
 namespace HelloKings;
 
 class Entry
@@ -58,7 +59,9 @@ class Entry
 
         //Iteration.DisplayCharacterStrings(userInput);
         //Iteration.DisplayNames();
-        Iteration.EchoNames();
+        //Iteration.EchoNames();
+        Generators.RandomPassword();
+        Generators.RandomPasswordString();
     }
 
 }
