@@ -61,10 +61,11 @@ class Entry
         //Iteration.DisplayCharacterStrings(userInput);
         //Iteration.DisplayNames();
         //Iteration.EchoNames();
-        Generators.RandomPassword();
-        Generators.RandomPasswordString();
-        Modus.MudusThree();
-        
+        //Generators.RandomPassword();
+        //Generators.RandomPasswordString();
+        //Modus.MudusThree();
+
+        Sum.AddNumber();
     }
 
 }
