@@ -18,6 +18,7 @@
     <None Remove="ControlFlows\" />
     <None Remove="Exercise\" />
     <None Remove="Loops\" />
+    <None Remove="Exercise\Exercise2\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Operations\" />
@@ -30,5 +31,6 @@
     <Folder Include="ControlFlows\" />
     <Folder Include="Exercise\" />
     <Folder Include="Loops\" />
+    <Folder Include="Exercise\Exercise2\" />
   </ItemGroup>
 </Project>

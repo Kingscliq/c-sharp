@@ -1,6 +1,7 @@
 ﻿using System;
 using HelloKings.Maths;
 using HelloKings.Exercise;
+using HelloKings.Exercise.Exercise2;
 using HelloKings.Loops;
 using HelloKings.RandomGenerators;
 namespace HelloKings;
@@ -62,6 +63,8 @@ class Entry
         //Iteration.EchoNames();
         Generators.RandomPassword();
         Generators.RandomPasswordString();
+        Modus.MudusThree();
+        
     }
 
 }
