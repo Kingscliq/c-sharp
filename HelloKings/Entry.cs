@@ -65,7 +65,8 @@ class Entry
         //Generators.RandomPasswordString();
         //Modus.MudusThree();
 
-        Sum.AddNumber();
+        //Sum.AddNumber();
+        Sum.Factorial();
     }
 
 }

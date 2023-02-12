@@ -29,6 +29,30 @@ namespace HelloKings.Exercise.Exercise2
 
 			Console.WriteLine(sum);
 		}
+
+
+		public static void Factorial()
+		{
+			Console.Write("Enter a Number - ");
+			var userInput = Console.ReadLine();
+			var ConvertedInput = Convert.ToInt32(userInput);
+			int fact = 1;
+
+            if (String.IsNullOrWhiteSpace(userInput))
+			{
+				Console.WriteLine("Please enter a valid number");
+			}
+			else
+			{
+				for(int i = 1; i <= ConvertedInput; i++)
+				{
+					Console.WriteLine("{0} , {1}", fact, ConvertedInput);
+					fact *= i;
+				}
+
+                Console.WriteLine("{0}! = {1}", ConvertedInput, fact);
+            }
+		}
 	}
 }
 

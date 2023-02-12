@@ -1,28 +1,41 @@
 ﻿<Properties StartupConfiguration="{B23FD74E-6319-40B4-881E-AA980D4E6646}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloKings/RandomGenerators/Generators.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloKings/Exercise/Exercise2/Sum.cs">
     <Files>
-      <File FileName="HelloKings/Entry.cs" Line="63" Column="29" />
-      <File FileName="HelloKings/Loops/Iteration.cs" Line="1" Column="1" />
-      <File FileName="HelloKings/RandomGenerators/Generators.cs" Line="27" Column="14" />
+      <File FileName="HelloKings/Loops/Iteration.cs" Line="35" Column="28" />
+      <File FileName="HelloKings/RandomGenerators/Generators.cs" Line="3" Column="2" />
+      <File FileName="HelloKings/Exercise/Exercise2/Modus.cs" Line="9" Column="5" />
+      <File FileName="HelloKings/Entry.cs" Line="65" Column="28" />
+      <File FileName="HelloKings/Exercise/Exercise2/Sum.cs" Line="54" Column="4" />
+      <File FileName="HelloKings/ManString/ManStrings.cs" Line="1" Column="1" />
+      <File FileName="HelloKings/TypeConversions/TypeConversion.cs" Line="1" Column="1" />
+      <File FileName="HelloKings/Operations/Operators.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HelloKings" expanded="True">
             <Node name="HelloKings" expanded="True">
+              <Node name="Exercise" expanded="True">
+                <Node name="Exercise2" expanded="True">
+                  <Node name="Sum.cs" selected="True" />
+                </Node>
+              </Node>
               <Node name="Loops" expanded="True" />
+              <Node name="ManString" expanded="True" />
+              <Node name="Operations" expanded="True" />
               <Node name="RandomGenerators" expanded="True" />
+              <Node name="TypeConversions" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.HelloKings PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HelloKings PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
