@@ -69,7 +69,11 @@ class Entry
         //Sum.Factorial();
         var methods = new Arrays.ArrayMethods();
 
-        methods.FindLength();
+        //methods.FindLength();
+        //methods.FindIndex();
+        //methods.UseCLear();
+        methods.SortArray();
     }
+
 
 }

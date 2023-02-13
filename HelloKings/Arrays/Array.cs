@@ -37,8 +37,38 @@ namespace HelloKings.Arrays
 
 		public void UseCLear()
 		{
+			Array.Clear(numbers,0, 2);
 
+			foreach(int num in numbers)
+			{
+				Console.Write(num);
+			}
 		}
-	}
+
+        public void UseCopy()
+        {
+
+			var newArray = new int[3];
+
+			Array.Copy(numbers, newArray, 3);
+
+
+			foreach(int num in newArray)
+			{
+				Console.WriteLine(num);
+			}
+		
+        }
+        public void SortArray()
+        {
+			Array.Sort(numbers);
+
+			foreach(int num in numbers)
+			{
+Console.WriteLine(num);
+			}
+                
+        }
+    }
 }
 
