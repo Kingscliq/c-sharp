@@ -4,7 +4,6 @@ namespace HelloKings.Arrays
 	public class ArrayMethods
 	{
 
-
         public int [] numbers = new int[8] { 1, 2, 3, 5, 78, 32, 42, 4 };
 
         public static void ArrayOut()
@@ -57,15 +56,15 @@ namespace HelloKings.Arrays
 			{
 				Console.WriteLine(num);
 			}
-		
         }
+
         public void SortArray()
         {
 			Array.Sort(numbers);
 
 			foreach(int num in numbers)
 			{
-Console.WriteLine(num);
+				Console.WriteLine(num);
 			}
                 
         }
