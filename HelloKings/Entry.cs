@@ -66,7 +66,10 @@ class Entry
         //Modus.MudusThree();
 
         //Sum.AddNumber();
-        Sum.Factorial();
+        //Sum.Factorial();
+        var methods = new Arrays.ArrayMethods();
+
+        methods.FindLength();
     }
 
 }

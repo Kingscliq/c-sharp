@@ -18,7 +18,6 @@ namespace HelloKings.Exercise.Exercise2
                 }
 				else
 				{
-
                     sum += Convert.ToInt32(input);
                     continue;
                    
@@ -53,6 +52,25 @@ namespace HelloKings.Exercise.Exercise2
                 Console.WriteLine("{0}! = {1}", ConvertedInput, fact);
             }
 		}
-	}
+
+        public static void WordGuessing()
+        {
+
+			Random random = new Random();
+			int i = 4, Guessed;
+
+			var randomNumber = random.Next(10);
+
+			do
+			{
+				Console.Write("Enter a Number - ");
+				Guessed = Convert.ToInt32(Console.ReadLine());
+				i--;
+			} while (i >= 4);
+    
+
+         
+        }
+    }
 }
 
