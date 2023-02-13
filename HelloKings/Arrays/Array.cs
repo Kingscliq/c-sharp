@@ -23,9 +23,7 @@ namespace HelloKings.Arrays
 
 		public void FindLength()
 		{
-
 			Console.WriteLine("Length is: {0} ", numbers.Length);
-			
 		}
 
 		public void FindIndex()
@@ -33,7 +31,7 @@ namespace HelloKings.Arrays
 
 			var index = Array.IndexOf(numbers, 78);
 
-			Console.WriteLine("Index of 78 is: ", index );
+			Console.WriteLine("Index of 78 is: {0}", index );
 			
 		}
 
