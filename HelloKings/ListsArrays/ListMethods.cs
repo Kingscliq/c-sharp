@@ -15,7 +15,11 @@ namespace HelloKings.ListsArrays
 				Console.WriteLine(num);
 			}
 
-		}
+
+			Console.WriteLine();
+            Console.WriteLine("Index of 6 is: {0} ", numbers.IndexOf(6));
+
+        }
 	}
 }
 
