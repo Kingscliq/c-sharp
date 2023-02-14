@@ -4,6 +4,7 @@ using HelloKings.Exercise;
 using HelloKings.Exercise.Exercise2;
 using HelloKings.Loops;
 using HelloKings.RandomGenerators;
+using HelloKings.ListsArrays;
 namespace HelloKings;
 
 class Entry
@@ -67,12 +68,15 @@ class Entry
 
         //Sum.AddNumber();
         //Sum.Factorial();
-        var methods = new Arrays.ArrayMethods();
+        //var methods = new Arrays.ArrayMethods();
 
         //methods.FindLength();
         //methods.FindIndex();
         //methods.UseCLear();
-        methods.SortArray();
+        //methods.SortArray();
+
+        ListMethods.ListMethod();
+        
     }
 
 

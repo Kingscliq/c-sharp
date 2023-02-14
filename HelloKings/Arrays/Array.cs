@@ -16,7 +16,6 @@ namespace HelloKings.Arrays
             numbers[3] = 8;
             numbers[4] = 3;
 
-
 			Console.WriteLine("{0} {1}", numbers[2], numbers[4]);
         }
 
