@@ -5,6 +5,8 @@ using HelloKings.Exercise.Exercise2;
 using HelloKings.Loops;
 using HelloKings.RandomGenerators;
 using HelloKings.ListsArrays;
+using HelloKings.Strings;
+
 namespace HelloKings;
 
 class Entry
@@ -75,7 +77,9 @@ class Entry
         //methods.UseCLear();
         //methods.SortArray();
 
-        ListMethods.ListMethod();
+        //ListMethods.ListMethod();
+
+        StringMethods.ManipulateString();
         
     }
 

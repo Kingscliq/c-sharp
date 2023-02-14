@@ -20,6 +20,7 @@
     <None Remove="Loops\" />
     <None Remove="Exercise\Exercise2\" />
     <None Remove="ListsArrays\" />
+    <None Remove="Strings\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Operations\" />
@@ -34,5 +35,6 @@
     <Folder Include="Loops\" />
     <Folder Include="Exercise\Exercise2\" />
     <Folder Include="ListsArrays\" />
+    <Folder Include="Strings\" />
   </ItemGroup>
 </Project>
