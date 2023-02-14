@@ -19,7 +19,25 @@ namespace HelloKings.ListsArrays
 			Console.WriteLine();
             Console.WriteLine("Index of 6 is: {0} ", numbers.IndexOf(6));
 
+			Console.WriteLine("Total numbers of elements is: {0}", numbers.Count);
+			numbers.Remove(8);
+
+            Console.WriteLine("Does numbers contain 45? {0}", numbers.Contains(45));
+          
+
+			for(int i = 0; i < numbers.Count; i++)
+			{
+				if (numbers[i] == 6)
+				{
+					numbers.Remove(numbers[i]);
+				}
+			}
+
+            foreach (int num in numbers)
+            {
+                Console.WriteLine(num);
+            }
         }
-	}
+    }
 }
 
