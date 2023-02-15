@@ -79,8 +79,9 @@ class Entry
 
         //ListMethods.ListMethod();
 
-        StringMethods.ManipulateString();
-        
+        //StringMethods.ManipulateString();
+        StringMethods.TrimText();
+
     }
 
 

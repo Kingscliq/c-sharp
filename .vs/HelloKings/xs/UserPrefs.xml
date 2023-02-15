@@ -1,31 +1,36 @@
 ﻿<Properties StartupConfiguration="{B23FD74E-6319-40B4-881E-AA980D4E6646}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloKings/Arrays/Array.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloKings/Strings/StringMethods.cs">
     <Files>
       <File FileName="HelloKings/Loops/Iteration.cs" />
-      <File FileName="HelloKings/RandomGenerators/Generators.cs" Line="3" Column="2" />
+      <File FileName="HelloKings/RandomGenerators/Generators.cs" />
       <File FileName="HelloKings/Exercise/Exercise2/Modus.cs" />
-      <File FileName="HelloKings/Entry.cs" Line="75" Column="23" />
-      <File FileName="HelloKings/Exercise/Exercise2/Sum.cs" Line="65" Column="5" />
+      <File FileName="HelloKings/Entry.cs" />
+      <File FileName="HelloKings/Exercise/Exercise2/Sum.cs" />
       <File FileName="HelloKings/ManString/ManStrings.cs" />
       <File FileName="HelloKings/TypeConversions/TypeConversion.cs" />
       <File FileName="HelloKings/Operations/Operators.cs" />
-      <File FileName="HelloKings/Arrays/Array.cs" Line="6" Column="1" />
+      <File FileName="HelloKings/Arrays/Array.cs" />
+      <File FileName="HelloKings/ListsArrays/ListMethods.cs" />
+      <File FileName="HelloKings/Strings/StringMethods.cs" Line="23" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HelloKings" expanded="True">
-            <Node name="HelloKings" expanded="True" />
+            <Node name="HelloKings" expanded="True">
+              <Node name="Loops" expanded="True" />
+              <Node name="Strings" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.HelloKings PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
