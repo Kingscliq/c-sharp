@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 namespace HelloKings.Strings
 {
 	public class StringMethods
@@ -38,6 +39,22 @@ namespace HelloKings.Strings
 
 			return String.Join(" ", summarizedText) + "...";
 	
+		}
+
+		public static void BuildStrings()
+		{
+			var builder = new StringBuilder();
+			builder.Append('-', 10);
+			builder.AppendLine();
+            builder.Append("Header");
+            builder.AppendLine();
+            builder.Append('-', 10);
+           
+            builder.Replace('-', '=');
+
+
+
+            Console.WriteLine(builder);
 		}
 
 	}
