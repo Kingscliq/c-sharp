@@ -80,7 +80,7 @@ class Entry
         //ListMethods.ListMethod();
 
         //StringMethods.ManipulateString();
-        StringMethods.TrimText();
+        Console.WriteLine(StringMethods.TrimText("This is a really really looooon loooon looong text", 20));
 
     }
 

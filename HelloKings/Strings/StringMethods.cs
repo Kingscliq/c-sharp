@@ -17,17 +17,12 @@ namespace HelloKings.Strings
             Console.WriteLine("New Name: {0}", newName);
         }
 
-		public static string TrimText(string text = "This is a trimmed text of the hallowed empire states nan of awada land as u to through", int maxLength = 50)
+		public static string TrimText(string text, int maxLength)
 		{
 			if (text.Length < maxLength)
 				return text;
 
-			//var Trimmed = text.Substring(0, maxLength);
-			//          return Trimmed + "...";
-
-			//      }
-
-			var newTextArr = text.Split(" ");
+			var newTextArr = text.Split(' ');
 			int totalCharCount = 0;
 			var summarizedText = new List<string>();
 
@@ -36,13 +31,12 @@ namespace HelloKings.Strings
 				summarizedText.Add(word);
 				totalCharCount += word.Length + 1;
 
-				if (totalCharCount < maxLength)
+				if (totalCharCount > maxLength)
 					break;
 
 			}
 
-
-			return String.Join(" ", summarizedText);
+			return String.Join(" ", summarizedText) + "...";
 	
 		}
 
